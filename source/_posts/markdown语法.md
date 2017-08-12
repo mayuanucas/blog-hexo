@@ -1,10 +1,7 @@
 ---
 title: markdown语法
 date: 2017-08-09 13:24:24
-tags:
-- markdown
-- 博客搭建
-
+tags: [markdown, 博客]
 categories: markdown
 
 ---
