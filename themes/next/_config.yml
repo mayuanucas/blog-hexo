@@ -304,7 +304,7 @@ font:
   codes:
     external: true
     family: source code pro
-    size:
+    size: 30px
 
 
 # ---------------------------------------------------------------
