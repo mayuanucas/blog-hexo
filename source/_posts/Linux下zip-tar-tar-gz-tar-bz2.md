@@ -85,7 +85,7 @@ which p7zip
 ``` bash
 sudo apt-get install p7zip
 ```
-对于 Red Hat 系列的Linux系统，则使用下面的命令来安装:
+* 对于 Red Hat 系列的Linux系统，则使用下面的命令来安装:
 ``` bash
 yum install p7zip
 ```
@@ -95,7 +95,7 @@ yum install p7zip
 ``` bash
 p7zip example.txt
 ```
-执行上述命令后，会产生一个名为 example.txt.7z 的压缩文件.
+    执行上述命令后，会产生一个名为 example.txt.7z 的压缩文件.
 
 * 解压文件
 解压文件和压缩文件的方法很类似，只是多了一个选项 -d, 假如现在想要解压上面的 example.txt.7z 文件, 可以使用下面的命令:
