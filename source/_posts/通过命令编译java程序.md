@@ -33,7 +33,7 @@ java com.libai.HelloWorld
 
 - 也可以在任意路径下指定classpath路径来执行，命令为:
 ``` bash
-java -classpath ~/workspace/utils com.kuring.HelloWorld
+java -classpath ~/workspace/utils com.libai.HelloWorld
 ```
 其中classpath指定了类的搜索路径。
 
@@ -44,6 +44,6 @@ jar cvf my.jar com
 ```
 来生成jar文件。其中my.jar为要生成的jar文件的名字。通过
 ``` bash
-java -classpath my.jar com.kuring.Main
+java -classpath my.jar com.libai.HelloWorld
 ```
 来执行jar文件。
