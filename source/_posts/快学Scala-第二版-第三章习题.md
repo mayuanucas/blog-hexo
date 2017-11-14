@@ -9,10 +9,28 @@ categories: 快学Scala(第二版)
 <!-- more -->
 
 ### 编写一段代码，将a设置为一个n个随机整数的数组，要求随机数介于0（包含）和 n （不包含）之间。
-
+```scala
+def func(n: Int): Array[Int] = {
+    val random = new Random()
+    val randomArr = new Array[Int](n)
+    for (i <- 0 until n) randomArr(i) = random.nextInt(n)
+    randomArr
+  }
+```
 
 ### 编写一个循环，将整数数组中相邻的元素置换。例如，Array(1, 2, 3, 4, 5)经过置换后变为Array(2, 1, 4, 3, 5)。
-
+```scala
+def fun2(arr: Array[Int]) = {
+    for (i <- 0 until arr.length by 2) {
+      if (i + 1 < arr.length) {
+        val temp = arr(i)
+        arr(i) = arr(i+1)
+        arr(i+1) = temp
+      }
+    }
+    arr
+  }
+```
 
 ### 重复前一个练习，不过这一次生成一个新的值交换过的数组。使用 for/yield 。
 
