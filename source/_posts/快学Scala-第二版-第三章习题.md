@@ -101,7 +101,21 @@ while (i < n){
 ```
 这是一个复杂而低效的方案。用Scala重写，采集负数元素的位置，丢弃第一个(位置)元素，反转该序列，然后对每个位置下标调用a.remove(i)。
 ```scala
+def func7(arr: ArrayBuffer[Int]) = {
+    val negArr = new ArrayBuffer[Int]()
 
+    for (i <- 0 until arr.length) {
+      if (0 > arr(i)) negArr += i
+    }
+
+    val temp = negArr.reverse
+    temp.trimEnd(1)
+
+    for (item <- temp) {
+      arr.remove(item)
+    }
+    arr.toArray
+  }
 ```
 
 ### 改进前一个练习的方案，采集应该被移动的位置和目标位置。执行这些移动并截断缓冲。不要复制第一个不需要的元素之前的任何元素。
@@ -112,7 +126,11 @@ while (i < n){
 
 ### 创建一个由 java.util.TimeZone.getAvailableIDs返回的时区集合，判断条件是它们在美洲。去掉“American/”前缀并排序。
 ```scala
-
+def func8() = {
+    val arraySet = java.util.TimeZone.getAvailableIDs.filter(
+      _.startsWith("America/")).map(_.replaceFirst("America/", "")).sorted
+    arraySet
+  }
 ```
 
 
@@ -123,5 +141,9 @@ val flavors = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf(SystemFlavorMap
 然后以DataFlavor.imageFlavor 为参数调用 getNativesForFlavor 方法，以Scala 缓冲保存返回值。
 
 ```scala
-
+import java.awt.datatransfer._
+import scala.collection.JavaConversions._
+import scala.collection.mutable.Buffer
+val flavors = SystemFlavorMap.getDefaultFlavorMap().asInstanceOf[SystemFlavorMap]
+val flavor: Buffer[String] = flavors.getNativesForFlavor(DataFlavor.imageFlavor)
 ```
