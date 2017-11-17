@@ -24,6 +24,9 @@ while (in.hasNext()) 处理 in.next()
 ```
 或者翻到第9章看看更Scala的做法。
 ```scala
+import scala.io.Source  
+import scala.collection.mutable.HashMap  
+
 def func2() = {
     val source = Source.fromFile("myfile.txt").mkString
     val tokens = source.split("\\s+")
@@ -39,13 +42,51 @@ def func2() = {
 ```
 
 ### 重复前一个练习，这次用不可变映射。
+```scala
+import scala.io.Source
 
+def func3() = {
+    val source = Source.fromFile("myfile.txt").mkString
+    val tokens = source.split("\\s+")
+
+    var map = Map[String, Int]()
+    for (key <- tokens) {
+      map += (key -> (map.getOrElse(key, 0) + 1))
+    }
+    println(map.mkString(","))
+  }
+```
 
 ### 重复前一个练习，这次用已排序的映射，以便单词可以按顺序打印出来。
+```scala
+import scala.io.Source  
+import scala.collection.SortedMap
 
+def func4() = {
+    val source = Source.fromFile("myfile.txt").mkString
+    val tokens = source.split("\\s+")
+
+    var map = SortedMap[String, Int]()
+    for (key <- tokens) {
+      map += (key -> (map.getOrElse(key, 0) + 1))
+    }
+    println(map.mkString(","))
+  }
+```
 
 ### 重复前一个练习，这次用 java.util.TreeMap 并使之使用于 Scala API。
+```scala
+def func5() = {
+    val source = Source.fromFile("myfile.txt").mkString
+    val tokens = source.split("\\s+")
 
+    val map: Map[String, Int] = new TreeMap[String, Int]
+    for (key <- tokens) {
+      map(key) = map.getOrElse(key, 0) + 1
+    }
+    println(map.mkString(","))
+  }
+```
 
 ### 定义一个链式哈希映射，将 “Monday” 映射到 java.util.Calendar.MONDAY ，依次类推加入其他日期。展示元素是以插入的顺序被访问的。
 
