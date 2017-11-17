@@ -76,6 +76,11 @@ def func4() = {
 
 ### 重复前一个练习，这次用 java.util.TreeMap 并使之使用于 Scala API。
 ```scala
+import scala.io.Source  
+import scala.collection.mutable.Map  
+import scala.collection.JavaConversions.mapAsScalaMap  
+import java.util.TreeMap  
+
 def func5() = {
     val source = Source.fromFile("myfile.txt").mkString
     val tokens = source.split("\\s+")
