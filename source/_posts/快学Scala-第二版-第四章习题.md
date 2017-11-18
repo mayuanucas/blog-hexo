@@ -94,19 +94,57 @@ def func5() = {
 ```
 
 ### 定义一个链式哈希映射，将 “Monday” 映射到 java.util.Calendar.MONDAY ，依次类推加入其他日期。展示元素是以插入的顺序被访问的。
+```scala
+def func6() = {
+    import scala.collection.mutable.LinkedHashMap
+    import java.util.Calendar
 
+    val map = new LinkedHashMap[String, Int]()
 
+    map += ("Monday" -> Calendar.MONDAY)
+    map += ("Tuesday" -> Calendar.TUESDAY)
+    map += ("Wednesday" -> Calendar.WEDNESDAY)
+    map += ("Thursday" -> Calendar.THURSDAY)
+    map += ("Friday" -> Calendar.FRIDAY)
+    map += ("Saturday" -> Calendar.SATURDAY)
+    map += ("Sunday" -> Calendar.SUNDAY)
+
+    println(map.mkString(","))
+  }
+```
 
 ### 打印出所有Java 系统熟悉的表格，类似下面这样：
+```scala
+def func7() = {
+    import scala.collection.JavaConversions.propertiesAsScalaMap
+    val props: scala.collection.Map[String, String] = System.getProperties
+    val keys = props.keySet
+    val keyLengths = for (key <- keys) yield key.length
+    val maxKeyLength = keyLengths.max
 
-
+    for (key <- keys) {
+      print(key)
+      print(" " * (maxKeyLength - key.length))
+      print(" | ")
+      println(props(key))
+    }
+  }
+```
 
 ### 编写一个函数 minmax(values: Array[Int]) , 返回数组中最小值和最大值的对偶。
-
-
+```scala
+def minmax(values: Array[Int]) = {
+  (values.min -> values.max)
+}
+```
 
 ### 编写一个函数 lteqgt(valuse: Array[Int], v: Int), 返回数组中小于 v、等于 v 和大于 v 的数量，要求三个值一起返回。
-
-
+```scala
+def lteqgt(values: Array[Int], v: Int) = {
+    val buf = values.toBuffer
+    (values.count(_ < v), values.count(_ == v), values.count(_ > v))
+  }
+```
 
 ### 当你将两个字符串拉链在一起，比如 "Hello".zip("World"), 会是什么结果？想出一个讲的通的用例。
+{% asset_img img01.jpg %}
