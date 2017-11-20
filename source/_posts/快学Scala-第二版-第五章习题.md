@@ -48,12 +48,66 @@ class BankAccount {
 
 ### 编写一个 Time 类，加入只读属性 hours 和 minutes, 以及一个检查某一时刻是否早于另一个时刻的方法 before(other: Time): Boolean。Time 对象应该以 new Time(hrs, min) 方式构建，其中 hrs 小时数以军用时间格式呈现(介于 0 和 23 之间)。
 ```scala
+class Time(var h: Int = 0, var m: Int = 0) {
+  private var hours: Int = 0
+  private var minutes: Int = 0
 
+  if (0 <= h && h <= 23){
+    hours = h
+  } else {
+    throw new Exception("construct Time error")
+  }
+  if (0 <= m && m <= 59){
+    minutes = m
+  } else {
+    throw new Exception("construct Time error")
+  }
+
+  def getHours() = hours
+
+  def getMinutes() = minutes
+
+  def before(other: Time): Boolean = {
+    if (hours < other.getHours() || hours == other.getHours() && minutes < other.getMinutes()) {
+      true
+    } else {
+      false
+    }
+  }
+}
 ```
 
 ### 重新实现前一个练习中的Time类，将内部呈现改成自午夜起的分钟数(介于 0 到 24*60-1之间)。不要改变公有接口。也就是说，客户端代码不应因为你的修改而受到影响。
+```scala
+class Time(var h: Int = 0, var m: Int = 0) {
+  var minutes: Int = 0
 
+  if (!(0 <= h && h <= 23)){
+    throw new Exception("construct Time error")
+  }
+  if (!(0 <= m && m <= 59)){
+    throw new Exception("construct Time error")
+  }
 
+  minutes = h * 60 + m
+
+  def getHours() = {
+    minutes / 60
+  }
+
+  def getMinutes() = {
+    minutes % 60
+  }
+
+  def before(other: Time): Boolean = {
+    if (minutes < other.getHours() * 60 + other.getMinutes()) {
+      true
+    } else {
+      false
+    }
+  }
+}
+```
 
 ### 创建一个Student类，加入可读写的JavaBean属性name(类型为String)和id(类型为Long).有哪些方法被生成？(用javap查看)你可以在Scala中调用JavaBeans版的getter和setter方法吗？应该这样做吗？
 
