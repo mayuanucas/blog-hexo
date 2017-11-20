@@ -9,15 +9,47 @@ categories: 快学Scala(第二版)
 <!-- more -->
 
 ### 改进5.1节的Counter类，让它不要在 Int.MaxValue 时变成负数。
+```scala
+class Counter{
+  private var value = 0
 
+  def increment(): Unit = {
+    if(value < Int.MaxValue){
+      value += 1
+    }
+  }
 
+  def current() = value
+}
+```
 
 ### 编写一个 BankAccount 类，加入 deposit 和 withdraw 方法，以及一个只读的 balance 属性。
+```scala
+class BankAccount {
+  private var balance: Double = 0.0
 
+  def getBalance(): Double = {
+    balance
+  }
+
+  def deposit(num: Double) = {
+    balance += num
+  }
+
+  def withdorw(num: Double) = {
+    if (num < balance) {
+      balance -= num
+    } else {
+      throw new Exception("withdraw money over total money")
+    }
+  }
+}
+```
 
 ### 编写一个 Time 类，加入只读属性 hours 和 minutes, 以及一个检查某一时刻是否早于另一个时刻的方法 before(other: Time): Boolean。Time 对象应该以 new Time(hrs, min) 方式构建，其中 hrs 小时数以军用时间格式呈现(介于 0 和 23 之间)。
+```scala
 
-
+```
 
 ### 重新实现前一个练习中的Time类，将内部呈现改成自午夜起的分钟数(介于 0 到 24*60-1之间)。不要改变公有接口。也就是说，客户端代码不应因为你的修改而受到影响。
 
