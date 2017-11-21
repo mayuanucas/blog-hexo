@@ -83,18 +83,59 @@ class Time(var h: Int = 0, var m: Int = 0) {
 ```
 
 ### 创建一个Student类，加入可读写的JavaBean属性name(类型为String)和id(类型为Long).有哪些方法被生成？(用javap查看)你可以在Scala中调用JavaBeans版的getter和setter方法吗？应该这样做吗？
-
-
+{% asset_img img01.jpg %}
 
 ### 在5.1节的Person类中提供一个主构造器，将负年龄转换为0.
+```scala
+class Student {
+  @BeanProperty var name: String = ""
+  @BeanProperty var id: Long = 0L
+}
 
+class Person(myAge: Int) {
+  var age: Int = 0
 
+  if (myAge < 0) {
+    age = 0
+  } else {
+    age = myAge
+  }
+
+  def getAge() = age
+}
+```
+
+### 编写一个Person类，其主构造器接受一个字符串，该字符串包含名字、空格和姓，如new Person(“Fred Smith”)。提供只读属性firstName和LastName。
+```scala
+class Person(val name : String) {
+  val firstName = name.split(" ")(0)
+  val lastName = name.split(" ")(1)
+}
+```
 
 ### 编写一个Car类，以只读属性对应制造商、设备型号、型号年份以及一个可读写的属性用于车牌。提供四组构造器。每一个构造器都要求制造商和型号名称为必填。型号年份以及车牌为可选，如果未填，则型号年份设置为 -1，车牌设置为空字符串。你会选择哪一个作为你的主构造器？为什么？
+```scala
+class Car(val maker: String, val typeName: String) {
+  private var typeYear: Int = -1
+  var numberOfCar = ""
 
+  def this(maker: String, typeName: String, typeYear: Int) {
+    this(maker, typeName)
+    this.typeYear = typeYear
+  }
 
+  def this(maker: String, typeName: String, numberOfCar: String) {
+    this(maker, typeName)
+    this.numberOfCar = numberOfCar
+  }
 
-
+  def this(maker: String, typeName: String, typeYear: Int, numberOfCar: String) {
+    this(maker, typeName)
+    this.typeYear = typeYear
+    this.numberOfCar = numberOfCar
+  }
+}
+```
 
 ### 在Java、C#或C++中重做前一个练习。相比之下Scala精简了多少？
 
@@ -107,3 +148,19 @@ class Employee(var name: String, var salary: Double) {
 }
 ```
 重写该类，使用显式的字段定义和一个默认主构造器。你更倾向于使用哪一种形式？为什么？
+
+```scala
+class Employee {
+  private var name: String = "John Q. Public"
+  private var salary: Double = 0.0
+
+  def this(name: String, salary: Double) {
+    this()
+    this.name = name
+    this.salary = salary
+  }
+
+  def getName() = this.name
+  def getSalary() = this.salary
+}
+```
