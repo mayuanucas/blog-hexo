@@ -2,7 +2,7 @@
 title: scala字符串变量替换
 date: 2017-11-15 12:17:19
 tags: Scala
-categories: 快学Scala(第二版)
+categories: Scala
 ---
 
 Scala字符串变量替换
