@@ -1,8 +1,8 @@
 ---
 title: 通过命令编译java程序
 date: 2017-09-04 20:57:01
-tags: [java, 编译, shell]
-categories: java
+tags: [Java, 编译, shell]
+categories: Java
 
 ---
  写本文的初衷是回顾一下java的编译命令, 并记录在linux系统上，通过java命令运行程序。

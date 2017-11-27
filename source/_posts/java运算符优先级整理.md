@@ -1,8 +1,8 @@
 ---
-title: java运算符优先级整理
+title: Java运算符优先级整理
 date: 2017-09-13 16:41:56
-tags: [java, 运算符优先级]
-categories: java
+tags: [Java, 运算符优先级]
+categories: Java
 
 ---
 
