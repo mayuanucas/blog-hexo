@@ -25,7 +25,11 @@ mongoexport -d dbname -c collectionname -o file --type json/csv -f field
 -f ：输出的字段，如果-type为csv，则需要加上-f "字段名"
 
 3、示例：
-sudo mongoexport -d mongotest -c users -o /home/python/Desktop/mongoDB/users.json --type json -f "_id,user_id,user_name,age,status"
+```shell
+sudo mongoexport -d mongotest -c users -o /home/python/Desktop/mongoDB/users.json
+--type json -f " _id,user_id,user_name,age,status "
+```
+
 
 #### 数据导入工具：mongoimport
 
@@ -40,7 +44,10 @@ mongoimport -d dbname -c collectionname --file filename --headerline --type json
 --file ：要导入的文件
 
 2、示例：
-sudo mongoimport -d mongotest -c users --file /home/mongodump/articles.json --type json
+```shell
+sudo mongoimport --host 127.0.0.1 --port 27617 --username name --password pwd -d mongotest -c users --file /home/mongodump/articles.json
+```
+
 
 #### MongoDB备份与恢复
 
