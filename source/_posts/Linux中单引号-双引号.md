@@ -1,8 +1,8 @@
 ---
 title: 'Linux中单引号,双引号'
 date: 2017-12-08 14:35:02
-tags: Linux
-categories: Linux
+tags: linux
+categories: linux
 ---
 
 本文记录Linux shell中的单引号、双引号、反引号等。
