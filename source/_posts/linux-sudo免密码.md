@@ -21,37 +21,37 @@ ubuntu ALL=(ALL:ALL) NOPASSWD : ALL
 
 ### 修改后的 /etc/sudoers 文件内容如下
 ``` shell
-  1 #
-  2 # This file MUST be edited with the 'visudo' command as root.
-  3 #
-  4 # Please consider adding local content in /etc/sudoers.d/ instead of
-  5 # directly modifying this file.
-  6 #
-  7 # See the man page for details on how to write a sudoers file.
-  8 #
-  9 Defaults    env_reset
- 10 Defaults    mail_badpass
- 11 Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap    /bin"
- 12
- 13 # Host alias specification
- 14
- 15 # User alias specification
- 16
- 17 # Cmnd alias specification
- 18
- 19 # User privilege specification
- 20 root    ALL=(ALL:ALL) ALL
- 21 # Members of the admin group may gain root privileges
- 22 %admin ALL=(ALL) ALL
- 23
- 24 # Allow members of group sudo to execute any command
- 25 %sudo   ALL=(ALL:ALL) ALL
- 26
- 27 # See sudoers(5) for more information on "#include" directives:
- 28
- 29 ubuntu  ALL=(ALL:ALL) NOPASSWD : ALL # <- 用户自己添加的内容
- 30
- 31 #includedir /etc/sudoers.d
+#
+# This file MUST be edited with the 'visudo' command as root.
+#
+# Please consider adding local content in /etc/sudoers.d/ instead of
+# directly modifying this file.
+#
+# See the man page for details on how to write a sudoers file.
+#
+Defaults    env_reset
+Defaults    mail_badpass
+Defaults    secure_path="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap    /bin"
+
+# Host alias specification
+
+# User alias specification
+
+# Cmnd alias specification
+
+# User privilege specification
+root    ALL=(ALL:ALL) ALL
+# Members of the admin group may gain root privileges
+%admin ALL=(ALL) ALL
+
+# Allow members of group sudo to execute any command
+%sudo   ALL=(ALL:ALL) ALL
+
+# See sudoers(5) for more information on "#include" directives:
+
+ubuntu  ALL=(ALL:ALL) NOPASSWD : ALL # <- 用户自己添加的内容
+
+#includedir /etc/sudoers.d
 ```
 
 ### 指定可以免密码的命令
