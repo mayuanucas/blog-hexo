@@ -65,12 +65,12 @@ sudo mongodump -h 192.168.17.129:27017 -d itcast -o /home/mongodump/
 
 ##### MongoDB数据库恢复
 1、语法：
-mongorestore -h dbhost -d dbname --dir dbdirectory
+mongorestore -h dbhost --db dbname --dir dbdirectory
 参数含义：
         -h： MongoDB所在服务器地址
-        -d： 需要恢复的数据库实例，例如：test，当然这个名称也可以和备份时候的不一样，比如test2
+        --db： 需要恢复的数据库实例，例如：test，当然这个名称也可以和备份时候的不一样，比如test2
         --dir： 备份数据所在位置，例如：/home/mongodump/itcast/
         --drop： 恢复的时候，先删除当前数据，然后恢复备份的数据。就是说，恢复后，备份后添加修改的数据都会被删除，慎用！
 
 2、实例：
-mongorestore -h 192.168.17.129:27017 -d itcast_restore --dir /home/mongodump/itcast/
+mongorestore -h 192.168.17.129:27017 --db itcast_restore --dir /home/mongodump/itcast/
