@@ -1,7 +1,7 @@
 ---
 title: java.lang.Object学习
 date: 2018-07-20 19:29:24
-tags: [Java, 序列化]
+tags: [Java]
 categories: Java基础知识
 ---
 
