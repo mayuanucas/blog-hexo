@@ -5,7 +5,7 @@ tags: [Java]
 categories: Java基础知识
 ---
 
-本文记录对 Java 中 String 类的知识点.
+本文记录 Java 中 String 类的知识点.
 <!-- more -->
 
 ### String不是基本数据类型
@@ -59,7 +59,7 @@ a string that has the same contents as this string, but is guaranteed to be from
 ```
 根据JDK文档的说明，这个方法是一个 native 的方法，注释写的非常明了。“如果常量池中存在当前字符串, 就会直接返回当前字符串. 如果常量池中没有此字符串, 会将此字符串放入常量池中后, 再返回”。
 
-实际代码例子:
+实际代码例子:(基于jdk1.8))
 ```
 public class MyString {
 
