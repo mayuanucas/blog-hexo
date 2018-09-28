@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 之茗
+title: Amy
 subtitle:
-description: java,python,大数据,算法
-author: zhiming
+description: work hard, play hard.
+author: Amy
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -86,16 +86,4 @@ search:
   path: search.xml
   field: post
   format: html
-  limit: 10000
-
-# Math Equations Render Support
-math.mathjax:
-  enable: true
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-  # Default(true) will load mathjax/katex script on demand
-  # That is it only render those page who has 'mathjax: true' in Front Matter.
-  # If you set it to false, it will load mathjax/katex srcipt EVERY PAGE.
-  per_page: true
-
-  engine: mathjax
-  #engine: katex
+  limit: 1000
