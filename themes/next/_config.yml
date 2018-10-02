@@ -952,6 +952,19 @@ vendors:
   # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
   valine:
 
+gitalk:
+  enable: true
+  githubID: mayuanucas
+  repo: mayuanucas.github.io
+  ClientID: 088fbcef60b4e556e0b4
+  ClientSecret: 7d8cf63bba66d4d93e3788581ec3a02bed59d3df
+  adminUser: mayuanucas
+  ID: location.pathname
+  labels: gitalk
+  perPage: 15
+  pagerDirection: last
+  createIssueManually: true
+  distractionFreeMode: false
 
 # Assets
 css: css
