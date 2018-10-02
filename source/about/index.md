@@ -1,6 +1,8 @@
 ---
 title: 个人介绍
 date: 2017-08-09 09:29:08
+type: "about"
+comments: false
 ---
 
 这是个人介绍的页面。
