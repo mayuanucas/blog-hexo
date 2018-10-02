@@ -58,6 +58,8 @@ favicon:
 rss:
 
 footer:
+  # 访问计数
+  counter: true
   # Specify the date when the site was setup.
   # If not defined, current year will be used.
   since: 2017
@@ -629,14 +631,14 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: false
-  app_id: #<app_id>
-  app_key: #<app_key>
-  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  enable: true
+  app_id: bvItCv1UbqgDxOixOHjGHOq6-gzGzoHsz
+  app_key: HwG65I8Lkn9iS692vXD25OHT
+  Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
   security: true
-  betterPerformance: false
+  betterPerformance: true
 
 # Another tool to show number of visitors to each article.
 # visit https://console.firebase.google.com/u/0/ to get apiKey and projectId
