@@ -12,7 +12,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://mayuanucas.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -83,9 +83,9 @@ deploy:
   repo: git@github.com:mayuanucas/mayuanucas.github.io.git
   branch: master
 
-# 添加站内搜索服务
-search:
-  path: search.xml
-  field: post
-  format: html
-  limit: 10000
+# Algolia Search API Key
+algolia:
+  applicationID: 'KEGFZ32GWM'
+  apiKey: '91fafbe7c1d8dac6b654f3c5eab50053'
+  indexName: 'blogIndex'
+  chunkSize: 5000
