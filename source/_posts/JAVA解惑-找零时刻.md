@@ -2,7 +2,7 @@
 title: JAVA解惑-找零时刻
 date: 2018-10-07 21:04:36
 tags: [Java]
-categories: [Java基础知识]
+categories: [JAVA解惑]
 ---
 
 JAVA解惑-找零时刻
@@ -37,7 +37,8 @@ System.out.println((200 - 110) + "cents);
 
 ### 使用执行小数运算的 BigDecimal
 
-**一定要用BigDecimal(String)构造器,而千万不要用BigDecimal(double)!**. 后一个构造器将用它的参数的"精确"值来创建一个实例: new BigDecimal(0.1) 将返回一个表示 0.1000000000000000055511151231257827021181583404541015625 的 BigDecimal,程序就可以打印出我们所期望的结果0.9:
+**一定要用BigDecimal(String)构造器,而千万不要用BigDecimal(double)!**.
+后一个构造器将用它的参数的"精确"值来创建一个实例: new BigDecimal(0.1) 将返回一个表示 0.1000000000000000055511151231257827021181583404541015625 的 BigDecimal,程序就可以打印出我们所期望的结果0.9:
 
 ```java
 public static void main(String[] args){

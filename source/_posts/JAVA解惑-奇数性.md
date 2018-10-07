@@ -2,7 +2,7 @@
 title: JAVA解惑-奇数性
 date: 2018-10-06 23:07:24
 tags: [Java]
-categories: [Java基础知识]
+categories: [JAVA解惑]
 ---
 
 JAVA解惑-奇数性
