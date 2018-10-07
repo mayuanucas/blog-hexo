@@ -79,9 +79,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@github.com:mayuanucas/mayuanucas.github.io.git
-  branch: master
+  - type: git
+    repo: git@github.com:mayuanucas/mayuanucas.github.io.git
+    branch: master
+  - type: leancloud_counter_security_sync
 
 # Algolia Search API Key
 algolia:
@@ -89,3 +90,10 @@ algolia:
   apiKey: '91fafbe7c1d8dac6b654f3c5eab50053'
   indexName: 'blogIndex'
   chunkSize: 5000
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: bvItCv1UbqgDxOixOHjGHOq6-gzGzoHsz
+  app_key: HwG65I8Lkn9iS692vXD25OHT
+  username: hexo
+  password: he2.71828
