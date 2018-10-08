@@ -82,7 +82,7 @@ deploy:
   - type: git
     repo: git@github.com:mayuanucas/mayuanucas.github.io.git
     branch: master
-  - type: leancloud_counter_security_sync
+  # - type: leancloud_counter_security_sync
 
 # Algolia Search API Key
 algolia:
