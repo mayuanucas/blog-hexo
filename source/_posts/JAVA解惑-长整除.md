@@ -1,7 +1,7 @@
 ---
 title: JAVA解惑-长整除
 date: 2018-10-08 11:00:39
-tags: [Java]
+tags: [java]
 categories: [JAVA解惑]
 ---
 

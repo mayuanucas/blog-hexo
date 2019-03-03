@@ -1,7 +1,7 @@
 ---
 title: Java中Comparable和Comparator
 date: 2018-07-22 20:07:58
-tags: [Java]
+tags: [java]
 categories: Java基础知识
 ---
 

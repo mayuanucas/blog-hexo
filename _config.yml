@@ -86,8 +86,8 @@ deploy:
 
 # Algolia Search API Key
 algolia:
-  applicationID: 'KEGFZ32GWM'
-  apiKey: '91fafbe7c1d8dac6b654f3c5eab50053'
+  applicationID: '6B0KOG01CS'
+  apiKey: '90e53b0db29ff3dc1a81f8cedd05d6a9'
   indexName: 'blogIndex'
   chunkSize: 5000
 

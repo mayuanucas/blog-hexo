@@ -1,7 +1,7 @@
 ---
 title: Java中instanceof
 date: 2018-07-22 22:33:08
-tags: [Java]
+tags: [java]
 categories: Java基础知识
 ---
 

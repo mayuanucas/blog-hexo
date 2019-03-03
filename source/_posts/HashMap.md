@@ -1,7 +1,7 @@
 ---
 title: HashMap
 date: 2018-08-28 10:31:23
-tags: [Java]
+tags: [java]
 categories: [Java基础知识]
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: JAVA解惑-冒号运算符
 date: 2018-10-11 09:43:59
-tags: [Java]
+tags: [java]
 categories: [JAVA解惑]
 ---
 

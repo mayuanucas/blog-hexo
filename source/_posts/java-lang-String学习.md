@@ -1,7 +1,7 @@
 ---
 title: java.lang.String学习
 date: 2018-07-26 22:16:01
-tags: [Java]
+tags: [java]
 categories: Java基础知识
 ---
 

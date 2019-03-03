@@ -1,7 +1,7 @@
 ---
 title: Java类-抽象类-接口
 date: 2018-08-30 22:52:45
-tags: [Java]
+tags: [java]
 categories: [Java基础知识]
 ---
 

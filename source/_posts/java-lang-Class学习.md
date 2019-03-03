@@ -1,7 +1,7 @@
 ---
 title: java.lang.Class学习
 date: 2018-07-21 10:34:39
-tags: [Java]
+tags: [java]
 categories: Java基础知识
 ---
 

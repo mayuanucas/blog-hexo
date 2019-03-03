@@ -1,7 +1,7 @@
 ---
 title: Java序列化的高级认识
 date: 2017-10-11 10:17:00
-tags: [Java, 序列化]
+tags: [java, 序列化]
 categories: Java
 ---
 
