@@ -1,8 +1,11 @@
 ---
 title: TCP-IP
 date: 2018-08-14 17:54:51
-tags: [网络]
-categories: 基础知识
+tags: 
+- TCP
+- IP
+categories: 
+- 计算机网络
 ---
 
 本文记录 TCP/IP 相关知识点。

@@ -1,8 +1,11 @@
 ---
 title: Nginx编译安装
 date: 2017-12-12 20:15:05
-tags: [nginx, linux]
-categories: linux
+tags: 
+- nginx
+- linux
+categories: 
+- linux
 ---
 
 本文记录在 Ubuntu 16.04 上编译安装 nginx

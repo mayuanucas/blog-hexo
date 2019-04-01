@@ -1,8 +1,11 @@
 ---
 title: Linux下zip tar tar.gz tar.bz2
 date: 2017-09-02 09:35:23
-tags: [linux, zip, tar, tar.gz, tar.bz2, shell]
-categories: linux
+tags: 
+- linux, zip, tar, tar.gz, tar.bz2, 
+- shell
+categories: 
+- linux
 
 ---
 压缩、解压缩是日常工作中常用的两个操作，对于 Windows 平台而言，最常用的格式是 zip 和 rar，国内大多数是用 rar，国外大多数是用 zip。

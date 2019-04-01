@@ -1,8 +1,10 @@
 ---
 title: ConcurrentHashMap
 date: 2018-08-28 20:12:26
-tags: [java]
-categories: [Java基础知识]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文主要记录 ConcurrentHashMap 相关知识点。

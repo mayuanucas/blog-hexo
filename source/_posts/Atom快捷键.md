@@ -1,11 +1,16 @@
 ---
 title: Atom快捷键
 date: 2017-08-10 08:58:34
-tags: [Atom, 快捷键]
-categories: 开发人员工具
-
+tags: 
+- Atom
+- IDE
+categories:
+- IDE
 ---
 
-#### Atom常用快捷键：
+本文记录Atom常用的快捷键。
+
 <!-- more -->
+
+## 快捷键
 {% asset_img atom01.png Atom%}

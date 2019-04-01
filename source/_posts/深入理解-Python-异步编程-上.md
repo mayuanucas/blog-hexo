@@ -1,8 +1,10 @@
 ---
 title: 深入理解 Python 异步编程(上)
 date: 2017-08-18 13:43:16
-tags: [python, 异步编程]
-categories: python
+tags: 
+- python
+categories: 
+- python
 
 ---
 

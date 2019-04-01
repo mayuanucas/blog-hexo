@@ -1,8 +1,11 @@
 ---
 title: rar命令行使用方法
 date: 2017-12-21 21:23:41
-tags: [rar, unrar]
-categories: mac
+tags: 
+- linux
+- shell
+categories: 
+- mac
 ---
 
 本文记录命令行使用rar和unrar的使用说明

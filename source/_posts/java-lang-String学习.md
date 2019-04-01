@@ -1,8 +1,10 @@
 ---
 title: java.lang.String学习
 date: 2018-07-26 22:16:01
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录 Java 中 String 类的知识点.

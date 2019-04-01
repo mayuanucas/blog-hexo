@@ -1,8 +1,10 @@
 ---
 title: 快学Scala(第二版)_第一章习题
 date: 2017-11-13 18:39:59
-tags: Scala
-categories: 快学Scala(第二版)
+tags: 
+- scala
+categories: 
+- 快学Scala(第二版)
 ---
 
 快学Scala(第二版) 第一章习题

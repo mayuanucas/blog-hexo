@@ -1,8 +1,10 @@
 ---
 title: java中的notify和notifyAll的区别
 date: 2019-03-03 15:17:07
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录java中的notify和notifyAll的区别.

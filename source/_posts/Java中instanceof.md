@@ -1,8 +1,10 @@
 ---
 title: Java中instanceof
 date: 2018-07-22 22:33:08
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录Java中instanceof运算符的一些知识点.

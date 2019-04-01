@@ -1,8 +1,10 @@
 ---
 title: Mac安装rar和unrar
 date: 2017-12-21 21:19:53
-tags: [mac, rar, unrar]
-categories: mac
+tags: 
+- mac
+categories: 
+- mac
 ---
 
 本文记录如何在mac上安装rar和unrar。

@@ -1,8 +1,10 @@
 ---
 title: JAVA解惑-多重转型
 date: 2018-10-10 23:09:53
-tags: [java]
-categories: [JAVA解惑]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 JAVA解惑-多重转型

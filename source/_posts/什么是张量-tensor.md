@@ -1,8 +1,12 @@
 ---
 title: 什么是张量(tensor)
 date: 2017-12-26 21:48:37
-tags: [tensor, deep learning]
-categories: 深度学习
+tags: 
+- tensorflow
+- 深度学习
+- 机器学习
+categories: 
+- 机器学习
 ---
 
 什么是张量(tensor)?本文对该问题做一个记录笔记，方便日常查看。

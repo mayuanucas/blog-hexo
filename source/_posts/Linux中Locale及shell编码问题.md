@@ -1,8 +1,11 @@
 ---
 title: Linux中Locale及shell编码问题
 date: 2017-08-18 15:49:19
-tags: [linux, 编码]
-categories: linux
+tags: 
+- linux
+- 编码
+categories: 
+- linux
 
 ---
 ##### Linux下关于locale的设定

@@ -1,8 +1,10 @@
 ---
 title: HashMap
 date: 2018-08-28 10:31:23
-tags: [java]
-categories: [Java基础知识]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录Java 中的HashMap 相关知识点。

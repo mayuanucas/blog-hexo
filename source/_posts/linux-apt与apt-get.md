@@ -1,8 +1,11 @@
 ---
 title: linux apt 与 apt-get
 date: 2017-08-19 17:25:25
-tags: [linux, apt, apt-get, shell]
-categories: linux
+tags: 
+- linux
+- shell
+categories: 
+- linux
 
 ---
 Ubuntu 16.04 发布时，一个引人注目的新特性便是 apt 命令的引入。其实早在 2014 年，apt 命令就已经发布了第一个稳定版，只是直到 2016 年的 Ubuntu 16.04 系统发布时才开始引人关注。

@@ -1,8 +1,11 @@
 ---
 title: hash算法
 date: 2017-08-09 08:40:46
-categories: 算法
-tags: [hash, 算法]
+tags: 
+- hash,
+- 算法
+categories: 
+- 算法
 
 ---
 

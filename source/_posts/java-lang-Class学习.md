@@ -1,8 +1,10 @@
 ---
 title: java.lang.Class学习
 date: 2018-07-21 10:34:39
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文对Java中的Class 类进行深入的学习.

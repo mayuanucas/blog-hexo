@@ -1,8 +1,10 @@
 ---
 title: JAVA解惑-找零时刻
 date: 2018-10-07 21:04:36
-tags: [java]
-categories: [JAVA解惑]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 JAVA解惑-找零时刻

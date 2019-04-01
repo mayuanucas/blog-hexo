@@ -3,9 +3,9 @@ title: linux的find命令用法
 date: 2017-08-10 08:46:01
 tags:
 - linux
-- bash命令
-
-categories: linux
+- shell
+categories: 
+- linux
 
 ---
 #### find是linux下很强大的搜索工具,但速度慢且很费硬盘。但不管怎么说，此命令的使用频率依然很高。

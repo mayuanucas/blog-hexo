@@ -1,8 +1,11 @@
 ---
 title: Mongodb安装
 date: 2017-12-12 20:14:49
-tags: [MongoDB, linux]
-categories: MongoDB
+tags: 
+- mongoDB
+- linux
+categories: 
+- NOSQL
 ---
 本文记录在 Ubuntu 16.04系统上进行 MongoDB 的安装、启动、停止、卸载等操作。
 <!-- more -->

@@ -1,8 +1,10 @@
 ---
 title: JAVA解惑-奇数性
 date: 2018-10-06 23:07:24
-tags: [java]
-categories: [JAVA解惑]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 JAVA解惑-奇数性

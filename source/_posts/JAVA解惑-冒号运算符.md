@@ -1,8 +1,10 @@
 ---
 title: JAVA解惑-冒号运算符
 date: 2018-10-11 09:43:59
-tags: [java]
-categories: [JAVA解惑]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 JAVA解惑-冒号运算符

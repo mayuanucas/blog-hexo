@@ -1,8 +1,10 @@
 ---
 title: JAR_WAR_EAR的区别
 date: 2017-11-27 20:24:37
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录JAR、WAR、EAR的区别，以便更好地理解。

@@ -1,8 +1,10 @@
 ---
 title: MongoDB导入导出以及数据库备份
 date: 2017-09-09 14:57:43
-tags: [MongoDB]
-categories: MongoDB
+tags: 
+- mongoDB
+categories: 
+- NOSQL
 
 ---
 

@@ -1,8 +1,10 @@
 ---
 title: JAVA解惑-十六进制的趣事
 date: 2018-10-09 19:20:48
-tags: [java]
-categories: [JAVA解惑]
+tags: 
+- java
+categories:
+- java基础知识
 ---
 
 JAVA解惑-十六进制的趣事

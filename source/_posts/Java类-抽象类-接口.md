@@ -1,8 +1,10 @@
 ---
 title: Java类-抽象类-接口
 date: 2018-08-30 22:52:45
-tags: [java]
-categories: [Java基础知识]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录Java类、抽象类、接口的相关知识点。

@@ -1,8 +1,11 @@
 ---
 title: ubuntu安装Java8
 date: 2018-04-14 10:24:55
-tags: [linux, ubuntu, Java]
-categories: linux
+tags: 
+- linux, ubuntu, J
+- java
+categories: 
+- linux
 ---
 
 本文记录如何在 Ubuntu16.04 系统安装 Oracle Java8.

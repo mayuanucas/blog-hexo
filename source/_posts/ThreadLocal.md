@@ -1,8 +1,10 @@
 ---
 title: ThreadLocal
 date: 2018-08-29 21:25:15
-tags: [Java]
-categories: [Java基础知识]
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 本文记录 Java 中 ThreadLocal 相关知识点。

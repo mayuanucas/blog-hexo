@@ -1,8 +1,10 @@
 ---
 title: ubuntu磁盘扩容
 date: 2017-11-03 13:47:46
-tags: [linux]
-categories: linux
+tags: 
+- linux
+categories: 
+- linux
 ---
 
 本文记录Ubuntu16.04系统，在使用LVM情况下的磁盘扩容操作。

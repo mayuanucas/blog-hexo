@@ -1,8 +1,10 @@
 ---
 title: java.lang.Object学习
 date: 2018-07-20 19:29:24
-tags: [java]
-categories: Java基础知识
+tags: 
+- java
+categories: 
+- java基础知识
 ---
 
 Java中的Object类是所有类的父类,在编译时会自动导入，位于java.lang包中，而Object中具有的属性和行为，是Java语言设计背后的思维体现,本文将对 Object 类进行探究详细.

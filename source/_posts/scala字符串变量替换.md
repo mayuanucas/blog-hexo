@@ -1,8 +1,10 @@
 ---
 title: scala字符串变量替换
 date: 2017-11-15 12:17:19
-tags: Scala
-categories: Scala
+tags: 
+- scala
+categories: 
+- scala
 ---
 
 Scala字符串变量替换

@@ -1,8 +1,11 @@
 ---
 title: Linux重定向
 date: 2017-11-24 17:41:33
-tags: linux
-categories: linux
+tags: 
+- linux
+- shell
+categories: 
+- linux
 ---
 
 本文记录下 Linux 系统中经常使用到的重定向等用法。

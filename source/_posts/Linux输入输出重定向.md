@@ -1,8 +1,11 @@
 ---
 title: Linux输入输出重定向
 date: 2017-11-24 17:06:41
-tags: linux
-categories: linux
+tags: 
+- linux
+- shell
+categories: 
+- linux
 ---
 
 本文记录下Linux系统的输入输出重定向的知识点。
