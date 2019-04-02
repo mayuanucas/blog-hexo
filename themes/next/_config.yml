@@ -334,7 +334,7 @@ symbols_count_time:
   item_text_post: true
   item_text_total: false
   awl: 2
-  wpm: 300
+  wpm: 240
 
 codeblock:
   # Manual define the border radius in codeblock, leave it blank for the default value: 1
@@ -602,8 +602,8 @@ calendar:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname:  mayuanucas
   count: true
   lazyload: false
 
