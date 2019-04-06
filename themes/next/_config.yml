@@ -363,7 +363,7 @@ reward_settings:
 
 reward:
   wechatpay: /images/wechatpay.jpg
-  alipay: /images/alipay.jpg
+  alipay: /images/alipay.png
   #bitcoin: /images/bitcoin.png
 
 # Related popular posts
@@ -829,7 +829,7 @@ busuanzi_count:
   total_visitors_icon: user
   total_views: true
   total_views_icon: eye
-  post_views: true
+  post_views: false
   post_views_icon: eye
 
 # Tencent analytics ID
