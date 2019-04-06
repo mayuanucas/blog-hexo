@@ -94,7 +94,7 @@ footer:
 creative_commons:
   license: by-nc-sa
   sidebar: false
-  post: false
+  post: true
   language:
 
 # `Follow me on GitHub` banner in the top-right corner.
@@ -357,8 +357,8 @@ wechat_subscriber:
 reward_settings:
   # If true, reward would be displayed in every article by default.
   # You can show or hide reward in a specific article throuth `reward: true | false` in Front Matter.
-  enable: false
-  animation: false
+  enable: true
+  animation: true
   #comment: Donate comment here
 
 reward:
@@ -824,7 +824,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
