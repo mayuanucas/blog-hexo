@@ -96,15 +96,15 @@ GitHub 个人主页会有联系邮箱、个人网站等信息，通过这些信�
 
 # 个人仪表板
 
-个人仪表板是登录 GitHub 时显示的第一页。访问个人仪表板，可以跟踪参与或关注的议题和拉取请求，浏览常用仓库和团队页面，了解订阅的组织和仓库中近期活动的最新信息，以及探索推荐的仓库。登录后要访问个人仪表板，可以单击 www.github.com 上任何页面左上角的网站图标。
+个人仪表板是登录 GitHub 时显示的第一页。访问个人仪表板，可以跟踪参与或关注的议题和拉取请求，浏览常用仓库和团队页面，了解订阅的组织和仓库中近期活动的最新信息，以及探索推荐的仓库。登录后要访问个人仪表板，在任意页面点击左上角的网站图标就能跳转到仪表板页面。
 
-# 个人资料
+{% asset_img home.png 个人仪表板%}
+
+# 个人资料(Profile)
 
 {% asset_img profile.png  your profile %}
 
 # 仓库
-
-{% asset_img proj02.png  仓库 %}
 
 **GitHub 常用术语介绍:**
 
@@ -144,6 +144,43 @@ GitHub Trending 页面展示了每天/每周/每月周期的热门 Repositories 
 
 {% asset_img search02.png  GitHub搜索 %}
 
-<p align="center">
-    <img src="https://help.github.com/assets/images/help/search/advanced_search_demo.gif"/>
-</p>
+## 搜索开发者
+
+{% asset_img skaifazhe.jpg 搜索开发者 %}
+
+比如需要寻找国产软件，搜索时设置 location 为 china，如果要寻找使用 javascript 语言开发者，则再增加 language 为 javascript，整个搜索条件就是：`language:javascript location:china`，从搜索结果来看，我们找到了超过 2.1 万名地区信息填写为 china 的 javascript 开发者，朋友们熟悉的阮一峰老师排在前列。根据官方手册，搜索 GitHub 用户时还支持使用 followers、in:fullname 组合条件进行搜索。
+
+{% asset_img kfz.png 搜索开发者 %}
+
+## 搜索仓库
+
+在 GitHub 上找到优秀的项目和工具，通过关键字或者设置搜索条件能够帮助我们事半功倍找到好资源。
+
+{% asset_img sxm01.jpg 搜索仓库 %}
+
+### 设定搜索条件
+
+如果明确需要寻找某类特定的项目，比如用某种语言开发、Stars 数量需要达到标准的项目，在搜索框中直接输入搜索条件即可。其中用于发现项目，常用的搜索条件有：stars:、language:、forks:、in:，这些条件是设置搜索条件为项目收藏数量、开发语言、Fork数量. 比如输入 stars:>=5000 language:python，得到的结果 就是收藏大于和等于 5000 的 python 项目。
+
+{% asset_img tj01.png 搜索条件 %}
+
+通过 in: 限定符，可以将搜索限制为仓库名称、仓库说明、自述文件内容或这些的任意组合。
+
+
+
+| 限定符         | 示例                                                         |
+| -------------- | ------------------------------------------------------------ |
+| in:name        | **python in:name** 匹配其名称中含有 "python" 的仓库。        |
+| in:description | **python in:name,description** 匹配其名称或说明中含有 "python" 的仓库。 |
+| in:readme      | **python in:readme** 匹配其自述文件中提及 "python" 的仓库。  |
+|                |                                                              |
+
+{% asset_img tj02.png in限定符 %}
+
+如果觉得记住这些搜索条件略显繁琐的话，使用 GitHub 提供的 高级搜索功能，同样可用自定义条件进行搜索。或者参考官方给出的帮助指南 [**Searching on GitHub**](https://help.github.com/en/github/searching-for-information-on-github/searching-on-github) ，里面有更多关于项目、代码、评论、问题等搜索技巧。
+
+{% asset_img help.png 指南 %}
+
+# 结语
+
+GitHub 网站上有很多优秀的开源项目，利用 GitHub 的提供的各种功能，包括高级搜索、Topic、Trending 等专题页面，不仅可以帮助我们发现更多好用的工具和开源项目,而且还能帮助我们了解业界最新的研究动态,提高开发能力。
