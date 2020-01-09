@@ -26,7 +26,7 @@ GitHub 2019年度报告显示，在过去的一年中，GitHub新增了一千万
 
 {% asset_img git.png Git官网 %}
 
-GitHub 也发布了面向工作流程的 Git 客户端：Windows 版，和 Mac 版,它们很好的展示了一个面向工作流程的工具应该是什么样子——专注于提升那些常用的功能及其协作的可用性.
+GitHub 也发布了面向工作流程的 Git 客户端：提供了Windows 版和 Mac 版,它们很好的展示了一个面向工作流程的工具——专注于提升常用的功能及提高协作效率.
 
 {% asset_img github_desktop.png GitHub客户端 %}
 
@@ -44,7 +44,7 @@ GitHub 的基础应用场景是作为远程的代码存储,代码版本控制.
 
 ### 获取(学习)优秀的开源项目
 
-由于存放在 Github **公有仓库**的的代码是公开的，所以可以很方便的获取、使用、学习这些优秀开源项目的代码和文档.
+由于存放在 Github **公有仓库**的代码是公开的，所以可以很方便的获取、使用、学习这些优秀开源项目的代码和文档.
 
 #### 国内外科技公司
 
@@ -102,6 +102,8 @@ GitHub 个人主页会有联系邮箱、个人网站等信息，通过这些信�
 
 # 个人资料(Profile)
 
+个人资料页面不仅展示了开发者的个人介绍, 联系邮箱, 博客地址, 社交账号, 还展示了开发者创建的或 Fork 的仓库, 页面最下方还展示了开发者每天的活跃程度(每天提交的 commit 越多, 对应日期的小方格颜色越深).
+
 {% asset_img profile.png  your profile %}
 
 # 仓库
@@ -128,7 +130,7 @@ GitHub 个人主页会有联系邮箱、个人网站等信息，通过这些信�
 
 # Topics
 
-GitHub Topic 页面展示了最新和最流行的讨论主题，在这里不仅能够看到开发项目，还能看到更多非开发技术的讨论主题，比如 Math、Algorithm 等。
+GitHub Topic 页面展示了最新和最流行的讨论主题，在这里不仅能够看到开发项目，还能看到很多非开发技术的讨论主题.
 
 {% asset_img topic.png  Topics %}
 
@@ -177,10 +179,10 @@ GitHub Trending 页面展示了每天/每周/每月周期的热门 Repositories 
 
 {% asset_img tj02.png in限定符 %}
 
-如果觉得记住这些搜索条件略显繁琐的话，使用 GitHub 提供的 高级搜索功能，同样可用自定义条件进行搜索。或者参考官方给出的帮助指南 [**Searching on GitHub**](https://help.github.com/en/github/searching-for-information-on-github/searching-on-github) ，里面有更多关于项目、代码、评论、问题等搜索技巧。
+如果觉得记住这些搜索条件略显繁琐的话，使用 GitHub 提供的高级搜索功能同样可自定义条件进行搜索。或者参考官方给出的帮助指南 [**Searching on GitHub**](https://help.github.com/en/github/searching-for-information-on-github/searching-on-github) ，里面有更多关于项目、代码、评论、问题等搜索技巧。
 
 {% asset_img help.png 指南 %}
 
 # 结语
 
-GitHub 网站上有很多优秀的开源项目，利用 GitHub 的提供的各种功能，包括高级搜索、Topic、Trending 等专题页面，不仅可以帮助我们发现更多好用的工具和开源项目,而且还能帮助我们了解业界最新的研究动态,提高开发能力。
+GitHub 网站上有很多优秀的开源项目，利用 GitHub 提供的各种功能，包括高级搜索、Topic、Trending 等专题页面，不仅可以帮助我们发现更多好用的效率工具和开源项目, 而且还能帮助我们了解业界最新的研究动态, 提高开发能力。
