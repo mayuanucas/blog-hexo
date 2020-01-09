@@ -123,7 +123,7 @@ deploy:
 # Algolia Search API Key
 algolia:
   applicationID: '6B0KOG01CS'
-  apiKey: '90e53b0db29ff3dc1a81f8cedd05d6a9'
+  apiKey: '9878ac28b28a68376166416770392b5f'
   indexName: 'blogIndex'
   chunkSize: 5000
 
