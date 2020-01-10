@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 
+title: zhiming
 subtitle: 
 description: work hard, play hard.
 keywords: 大数据, 机器学习, 数据挖掘, Python
@@ -123,9 +123,9 @@ deploy:
 # Algolia Search API Key
 algolia:
   applicationID: '6B0KOG01CS'
-  apiKey: '9878ac28b28a68376166416770392b5f'
+  apiKey: 'bd80e91f76e157d971e1ef6485d62532'
   indexName: 'blogIndex'
-  chunkSize: 5000
+  chunkSize: 500
 
 leancloud_counter_security:
   enable_sync: true
