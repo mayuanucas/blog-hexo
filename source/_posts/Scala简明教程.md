@@ -47,7 +47,7 @@ $ scala HelloWorld  // 把字节码放到虚拟机中解释运行
 
 ## 数据类型
 
-### Scala类型层次结构
+### 类型层次结构
 
 `Any`是所有类型的超类型，也称为顶级类型。它定义了一些通用的方法如`equals`、`hashCode`和`toString`。`Any`有两个直接子类：`AnyVal`和`AnyRef`。
 
@@ -100,7 +100,7 @@ $ scala HelloWorld  // 把字节码放到虚拟机中解释运行
 | Any     | Any是所有其他类的超类                                        |
 | AnyRef  | AnyRef类是Scala里所有引用类(reference class)的基类           |
 
-### Scala 基础字面量
+### 基础字面量
 
 Scala 非常简单且直观,接下来详细介绍 Scala 字面量。
 
@@ -742,7 +742,7 @@ abstract class Animal(name: String)
 - 子类重写父类的普通方法，需要加 `override` 关键字。
 - 只有主构造函数才可以往父类的构造函数里写参数。
 
-# Scala 访问修饰符
+# 访问修饰符
 
 Scala 访问修饰符基本和Java的一样，分别有：private、protected、public。
 如果没有指定访问修饰符，默认情况下，Scala 对象的访问级别都是 public。
