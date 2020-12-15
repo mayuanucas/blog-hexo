@@ -8,7 +8,6 @@ tags:
 - sklearn
 categories:
 - 机器学习
-- sklearn基础
 ---
 
 XGBoost是陈天奇于2014年提出的一套并行boost算法的工具库, LightGBM是微软推出的boosting框架, CatBoost是Yandex推出的Boost工具包. 本文将对这些算法进行介绍,并在数据集上对算法进行测试.
